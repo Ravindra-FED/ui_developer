@@ -1,0 +1,14 @@
+@import "./../style-variables.css";
+
+th {
+  font-size: 2rem;
+}
+
+th button {
+  background-color: var(--background-color);
+  border: 0;
+}
+
+th button i {
+  color: var(--font-color);
+}

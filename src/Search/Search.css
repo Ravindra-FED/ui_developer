@@ -1,0 +1,17 @@
+@import "./../style-variables.css";
+
+.search-bar input {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--font-color);
+  font-size: 2rem;
+  margin: 2rem 0 2rem 0;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  padding: 0.5rem;
+}
+
+.search-bar label {
+  color: var(--font-color);
+}

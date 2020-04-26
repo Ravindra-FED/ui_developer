@@ -1,0 +1,40 @@
+@import "style-variables.css";
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+table th,
+td {
+  padding: 0.5rem;
+  color: var(--font-color);
+}
+
+thead tr {
+  border-bottom: 2px solid var(--font-color);
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--font-color);
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+td a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+td a:hover {
+  color: var(--font-color-on-hover);
+}
+
+table tr {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
